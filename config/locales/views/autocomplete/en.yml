@@ -1,0 +1,4 @@
+en:
+  views:
+    autocomplete:
+      no_matching_repos: 'We could not find any matching repositories'
