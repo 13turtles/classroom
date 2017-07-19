@@ -6,7 +6,7 @@
       <span class="assignment-icon assignment-icon-individual">
         <%= octicon 'person', height: 22 %>
       </span>
-      Accept the <strong><%= current_assignment.title %></strong> assignment
+      <%= t('views.assignment_invitations.show.accept') %> <strong><%= current_assignment.title %></strong> <%= t('views.assignment_invitations.show.assigment') %>
     </h2>
   </div>
 </div>
@@ -15,8 +15,8 @@
   <%= form_tag({ controller: :assignment_invitations, action: :accept }, method: :patch) do %>
     <div class="markdown-body">
       <p>
-        Accepting this assignment will give you access to the <strong><%= "#{current_assignment.slug}-#{current_user.github_user.login}" %></strong>
-        repository in the <%= link_to "@#{organization.github_organization.login}", organization.github_organization.html_url %> organization on GitHub.
+        <%= t('views.assignment_invitations.show.give_you_access') %> <strong><%= "#{current_assignment.slug}-#{current_user.github_user.login}" %></strong>
+        <%= t('views.assignment_invitations.show.repository') %> <%= link_to "@#{organization.github_organization.login}", organization.github_organization.html_url %> <%= t('views.assignment_invitations.show.organization') %>
       </p>
     </div>
 

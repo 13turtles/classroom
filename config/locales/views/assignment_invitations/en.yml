@@ -1,0 +1,16 @@
+en:
+  views:
+    assignment_invitations:
+      success: 
+        assigments_created_here: 'Your assignment has been created here:'
+        you_are_ready: 'You are ready to go!'
+        accepted: 'Accepted the'
+        assignment: 'assignment.'
+        you_may_recieve: 'You may receive an invitation to join'
+        via_email: 'via email invitation on your behalf. No further action is necessary.'
+      show:
+        accept: 'Accept the'
+        assignment: 'assignment'
+        give_you_access: 'Accepting this assignment will give you access to the'
+        repository: 'repository in the'
+        organization: 'organization on GitHub.'
