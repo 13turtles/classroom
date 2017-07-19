@@ -6,7 +6,7 @@
       <span class="assignment-icon assignment-icon-individual">
         <%= octicon 'person', height: 22 %>
       </span>
-      Assignment settings
+      <%= t('views.assignments.edit.settings')%> 
     </h2>
   </div>
 </div>
@@ -19,9 +19,9 @@
       </div>
 
       <div class="one-third column pt-3 dangerzone-container">
-        <p class="text-emphasized">Delete this assignment</p>
-        <p class="text-gray">Once you delete this assignment, there is no going back. Please be certain.</p>
-        <a data-remodal-target="delete-assignment" class="btn btn-danger btn-block">Delete this assignment</a>
+        <p class="text-emphasized"><%= t('views.assignments.edit.delete_assigment')%> </p>
+        <p class="text-gray"><%= t('views.assignments.edit.are_you_sure')%></p>
+        <a data-remodal-target="delete-assignment" class="btn btn-danger btn-block"><%= t('views.assignments.edit.delete') %></a>
       </div>
     </div>
 
