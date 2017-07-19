@@ -1,0 +1,9 @@
+en:
+  views:
+    groupings:
+      show: 
+        drag_and_drop_html: 'You can <b>drag and drop</b> the student avatars to move them from one team to another.'
+        no_teams: 'does not have any teams.'
+        share_invitations: 'Share group assignment invitation links with your students to get started.'
+      edit:
+        team_settings: 'Set of teams settings'

@@ -1,0 +1,16 @@
+en:
+  views:
+    assigments:
+      show:
+       individual_assigment: 'Individual assigment'
+       deadline_passed: '- Deadline Passed'
+       settings: 'Assigment settings'
+       no_repos: 'does not have any repositories.'
+       share_link: 'Share the invitation link with your students to get started.'
+     new:
+       new_individual_assigment: 'New individual assignment'
+     edit:
+       settings: 'Assignment settings'
+       delete_assigment: 'Delete this assignment'
+       are_you_sure: 'Once you delete this assignment, there is no going back. Please be certain.'
+       delete: 'Delete this assignment'
